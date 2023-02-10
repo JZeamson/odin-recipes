@@ -28,3 +28,8 @@ h2 {
 	text-decoration: none;
 	color: black;
 }
+
+#link:hover {
+	text-decoration: underline;
+	text-decoration-color: red;
+}
