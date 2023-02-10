@@ -1,3 +1,30 @@
+h1 {
+	color: black;
+	font-size: 60px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+body {
+	background-color: blanchedalmond;
+}
+
 * {
-	color: yellow;
+	font-family: 'Courier New';
+}
+
+ul {
+	font-size: 26px;
+	text-align: center;
+	list-style-position: inside;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+#link {
+	text-decoration: none;
+	color: black;
 }
