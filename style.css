@@ -3,11 +3,12 @@ h1 {
 	font-size: 60px;
 	text-align: center;
 	border: 6px solid black;
-	width: 460px;
+	width: 500px;
 	margin: 20px;
-	padding: 10px 0;
+	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 15px;
 }
 
 body {
@@ -16,6 +17,9 @@ body {
 
 * {
 	font-family: 'Courier New';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .ul {
@@ -34,12 +38,12 @@ h2 {
 	font-size: 30px;
 }
 
-#link {
+.link {
 	text-decoration: none;
 	color: black;
 }
 
-#link:hover {
+.link:hover {
 	text-decoration: underline;
 	text-decoration-color: red;
 }

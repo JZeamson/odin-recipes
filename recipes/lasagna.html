@@ -33,11 +33,24 @@
         h2 {
             font-size: 28px;
         }
-    </style>>
+
+        .btn {
+            background-color: rgb(254, 219, 150);
+            border: 1px dotted grey;
+            border-radius: 6px;
+            margin: 10px;
+            transition: .2s;
+        }
+
+        .btn:hover {
+            background-color: rgb(252, 173, 56);
+        }
+    </style>
     <title>World's Best Lasagna</title>
 </head>
 
 <body>
+    <button class="btn text" type="button" value="Go back!" onclick="history.back()">Go back</button>
 
     <h1 class="title">World's Best Lasagna</h1>
     <img
